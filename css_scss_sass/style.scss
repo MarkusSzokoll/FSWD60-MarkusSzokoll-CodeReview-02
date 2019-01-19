@@ -18,32 +18,53 @@ $nav_bgc: #1a1a1a;
 
 header {
   width: 100%;
+  display: flex;
 }
+
 // header, above the navigation - bar
 .header_logo { 
-  background-color: $header-bgc;
-  width: 100%;
-  height: auto
-  }
+  background-color: $header_bgc;
+  display: flex;
+  height: auto;
+}
+
+
+ 
 footer {
-  background-color: $footer-bgc;
+  margin-top: 100px;  
+  background-color: $footer_bgc;
   color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#footer_text {
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 5px;
 }
 
 #img1 {
-  padding: 2%;
+  margin: auto auto auto 20px;
   }
 #img2 {
-  padding: 1%;
+  margin: 20px 20px 20px auto;
   }
 #img3 {
-  text-align: left;
+  margin: auto 20px auto auto;
+}
+.first_nav_item{
+  margin-left: 16px;
 }
 
 // navigation-bar-styling
-nav {width: 100%;
-height: auto;
+nav {
+  width: 100%;
+  height: auto;
 }
+
 ul {
   list-style-type: none;
   overflow: hidden; 
