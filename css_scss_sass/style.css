@@ -1,0 +1,30 @@
+/*
+  Standard Stylesheet for all pages with header & menu-bar
+
+  CodeFactory 2019 - Markus Szokoll
+*/
+* {
+  margin: 0pt;
+  padding: 5%;
+  border: 0pt; }
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #653f3f;
+  top: 0.5em; }
+
+li {
+  float: left; }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold; }
+
+.active_nav {
+  color: yellow; }
+
+/*# sourceMappingURL=style.css.map */
